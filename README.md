@@ -1,4 +1,4 @@
-# Ripple — Social App
+# Social App
 
 A minimal social app built with Next.js 14, Zustand, Tailwind CSS, and TypeScript.
 

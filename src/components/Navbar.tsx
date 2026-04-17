@@ -21,14 +21,14 @@ export default function Navbar() {
       }}
       className="sticky top-0 z-40"
     >
-      <div className="max-w-2xl mx-auto px-4 h-14 flex items-center justify-between">
+      <div className="max-w-2xl mx-auto px-4 h-14 flex items-center justify-between gap-2">
         {/* Wordmark */}
         <Link href="/" className="font-display text-xl" style={{ color: "var(--color-accent)" }}>
-          Ripple
+          Social App
         </Link>
 
         {/* Nav links */}
-        <nav className="flex items-center gap-1">
+        <nav className="flex items-center gap-2">
           {navItems.map(({ href, label, Icon, ActiveIcon }) => {
             const isActive = pathname === href;
             const Ic = isActive ? ActiveIcon : Icon;

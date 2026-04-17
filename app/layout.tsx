@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/src/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Ripple — Social",
+  title: "Social — App",
   description: "A simple social app",
 };
 
